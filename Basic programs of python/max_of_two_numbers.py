@@ -1,11 +1,6 @@
-def maximum(a, b):
-    if a > b:
-        return a
-    else:
-        return b
-    
 a = int(input ("Enter your first number : "))
-b = int(input ("ENter your second number : "))
+b = int(input ("Enter your second number : "))
 
-print(maximum(a, b))
+sum = max(a, b)
 
+print(sum)
